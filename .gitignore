@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Big / re-creatable data (python -m data.make_data downloads them again)
+data/raw/
+data/mnist_1to9.npz
